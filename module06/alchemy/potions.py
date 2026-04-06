@@ -1,7 +1,7 @@
 from .elements import create_fire, create_water, create_earth, create_air
 
 
-def healing_posion() -> str:
+def healing_potion() -> str:
     fire_result = create_fire()
     water_result = create_water()
     return f"Healing potion brewed with {fire_result} and {water_result}"
@@ -19,7 +19,7 @@ def invisibility_potion() -> str:
     return f"Invisibility potion brewed with {air_result} and {water_result}"
 
 
-def wisdom_postion() -> str:
+def wisdom_potion() -> str:
     all_four_results = (
         f"{create_fire()}, {create_water()}, {create_earth()}, {create_air()}"
     )
