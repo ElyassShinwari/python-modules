@@ -123,6 +123,7 @@ def run_analysis() -> None:
     axes[1][1].set_xlabel("Timestamp")
     axes[1][1].set_ylabel("Threat Level")
     axes[1][1].legend()
+    plt_module.show()
 
     plt_module.tight_layout()
     output_file: str = "matrix_analysis.png"
