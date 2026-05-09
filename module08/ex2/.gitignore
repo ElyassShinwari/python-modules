@@ -1,15 +1,15 @@
 # Environment variables - never commit secrets
 .env
- 
+
 # Virtual environments
 matrix_env/
 venv/
 .venv/
- 
+
 # Python
 __pycache__/
 *.pyc
- 
+
 # IDE
 .vscode/
 .idea/
