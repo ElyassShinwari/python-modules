@@ -1,4 +1,4 @@
-"""Exercise 1: Alien Contact Logs - Custom validation with @model_validator."""
+"""Alien Contact Logs - Custom validation with @model_validator."""
 
 from datetime import datetime
 from enum import Enum
