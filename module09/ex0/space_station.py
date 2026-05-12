@@ -57,7 +57,7 @@ def main() -> None:
         crew_size=6,
         power_level=85.5,
         oxygen_level=92.3,
-        last_maintenance="2024-01-15T10:30:00",
+        last_maintenance=datetime.fromisoformat("2024-01-15T10:30:00"),
     )
     status = "Operational" if station.is_operational else "Offline"
     print("Valid station created:")
@@ -79,7 +79,7 @@ def main() -> None:
             crew_size=25,
             power_level=50.0,
             oxygen_level=80.0,
-            last_maintenance="2024-03-01T08:00:00",
+            last_maintenance=datetime.fromisoformat("2024-03-01T08:00:00"),
         )
     except ValidationError as e:
         for error in e.errors():
